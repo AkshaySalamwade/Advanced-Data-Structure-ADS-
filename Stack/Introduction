@@ -1,0 +1,54 @@
+STACK
+---
+- A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle.
+- Stack has one end, whereas the Queue has two ends (front and rear).
+- A stack can be defined as a container in which insertion and deletion can be done from the one end known as the top of the stack.
+
+WORKING OF STACK :
+
+The operations work as follows:
+
+1. A pointer called TOP is used to keep track of the top element in the stack.
+2. When initializing the stack, we set its value to -1 so that we can check if the stack is empty by comparing TOP == -1.
+3. On pushing an element, we increase the value of TOP and place the new element in the position pointed to by TOP.
+4. On popping an element, we return the element pointed to by TOP and reduce its value.
+5. Before pushing, we check if the stack is already full
+6. Before popping, we check if the stack is already empty
+
+
+
+BASIC STACK OPERATION :
+
+1.push():  
+	When we insert an element in a stack then the operation is known as a push. If the stack is full then the overflow condition occurs.
+
+2.pull():
+	When we delete an element from the stack, the operation is known as a pop. If the stack is empty means that no element exists in the stack, this state is known as an underflow state.
+
+3.isEmpty() : It determines whether the stack is empty or not.
+4.isFull()       : It determines whether the stack is full or not.'
+5.peek()        : It returns the element at the given position.
+6.count()      : It returns the total number of elements available in a stack.
+7.change()   : It changes the element at the given position.
+8.display()   : It prints all the elements available in the stack.
+
+
+APPLICATION OF STACK :
+
+- Balancing of symbols
+- String reversal
+- UNDO/REDO
+- Recursion
+- DFS
+- Backtracking
+- Expression Conversion
+		--  Infix to prefix
+		--   Infix to Postfix
+		--   prefix to infix
+		--   prefix to postfix
+		--   postfix to infix
+
+- Memory Management
+
+
+TIME AND SPACE COMPLEXITY OF STACK :
